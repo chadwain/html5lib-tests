@@ -530,8 +530,8 @@
 "input":"<!\u000B",
 "output":[["Comment", "\u000B"]],
 "errors":[
-    { "code": "control-character-in-input-stream", "line": 1, "col": 3 },
-    { "code": "incorrectly-opened-comment", "line": 1, "col": 3 }
+    { "code": "incorrectly-opened-comment", "line": 1, "col": 3 },
+    { "code": "control-character-in-input-stream", "line": 1, "col": 3 }
 ]},
 
 {"description":"<!\\u000C",
