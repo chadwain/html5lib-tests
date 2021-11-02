@@ -166,17 +166,6 @@
 |     "Hello"
 
 #data
-<!DOCTYPE potato SYSTEM 'taco"'>Hello
-#errors
-(1,32): unknown-doctype
-#document
-| <!DOCTYPE potato "" "taco"">
-| <html>
-|   <head>
-|   <body>
-|     "Hello"
-
-#data
 <!DOCTYPE potato SYSTEM "taco">Hello
 #errors
 (1,31): unknown-doctype
